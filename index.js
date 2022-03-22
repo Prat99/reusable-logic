@@ -1,3 +1,3 @@
-import { usersReducer } from "./reducers";
+import { usersReducer, userAdded, userUpdated, fetchUsers } from "./reducers";
 
-export { usersReducer };
+export { usersReducer, userAdded, userUpdated, fetchUsers };

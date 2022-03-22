@@ -1,2 +1,3 @@
 import usersReducer from "./usersSlice";
-export { usersReducer };
+import { userAdded, userUpdated, fetchUsers } from "./usersSlice";
+export { usersReducer, userAdded, userUpdated, fetchUsers };
